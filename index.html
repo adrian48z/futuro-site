@@ -35,15 +35,13 @@
             margin-bottom: 20px;
         }
         img {
-            display: none; /* Esconde a imagem inicialmente */
-            max-width: 80%;
+            max-width: 200px;
             height: auto;
             margin-top: 20px;
             border-radius: 10px;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
         }
         .textinho {
-            display: none; /* Esconde o textinho inicialmente */
             margin-top: 10px;
             font-size: 18px;
         }
@@ -73,7 +71,7 @@
            Você aceitaria receber meus chamegos hoje enquanto assistimos RBD e comemos guacamole, meu amor? 🐱</p>
         <button onclick="exibirAlerta()">Clique para uma surpresa 💖</button>
         <img id="imagem-nossa" src="fotonossa.jpg" alt="Uma imagem nossa">
-        <p id="textinho" class="textinho">Você é muito incrível, to com saudade e te amo muitão! Espero que seu trabalho seja tranquilo mochi! 💖</p>
+        <p id="textinho" class="textinho" style="display:none;">Você é muito incrível, to com saudade e te amo muitão! Espero que seu trabalho seja tranquilo mochi! 💖</p>
     </main>
 
     <script>
@@ -81,7 +79,7 @@
             var resposta = confirm("Você aceitaria? 🥰");
             if (resposta) {
                 alert("Que ótimo! Mal posso esperar! Te amo! 💖");
-                document.getElementById("imagem-nossa").style.display = "block"; // Mostra a imagem
+                document.getElementById("imagem-nossa").style.display = "inline"; // Mostra a imagem
                 document.getElementById("textinho").style.display = "block"; // Mostra o textinho
             } else {
                 alert("Tudo bem, meu amor. Podemos fazer outra coisa que você preferir. Te amo! 💖");
