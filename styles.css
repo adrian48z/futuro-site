@@ -18,8 +18,8 @@ body {
 
 /* Estilos específicos para o site */
 .header {
-    background-color: #333;
-    color: #fff;
+    background-color: #f9f9f9;
+    color: #333;
     padding: 20px 0;
 }
 
@@ -32,7 +32,7 @@ body {
 .logo {
     font-size: 1.5rem;
     text-decoration: none;
-    color: #fff;
+    color: #333;
 }
 
 .nav-links {
@@ -46,7 +46,7 @@ body {
 
 .nav-links li a {
     text-decoration: none;
-    color: #fff;
+    color: #333;
 }
 
 .hero {
@@ -68,8 +68,8 @@ body {
 }
 
 .btn {
-    background-color: #ffcc00;
-    color: #333;
+    background-color: #333;
+    color: #fff;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
@@ -77,12 +77,12 @@ body {
 }
 
 .btn:hover {
-    background-color: #ffc400;
+    background-color: #555;
 }
 
 .footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #f9f9f9;
+    color: #333;
     text-align: center;
     padding: 20px 0;
 }
